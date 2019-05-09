@@ -12,7 +12,7 @@
 		16F4D857228495540096D46F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F4D855228495540096D46F /* Main.storyboard */; };
 		16F4D859228495550096D46F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F4D858228495550096D46F /* Assets.xcassets */; };
 		16F4D85C228495550096D46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F4D85A228495550096D46F /* LaunchScreen.storyboard */; };
-		16F4D8642284A7AB0096D46F /* TeilnehmerDaten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4D8632284A7AB0096D46F /* TeilnehmerDaten.swift */; };
+		16F4D8662284A8440096D46F /* Teilnehmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4D8652284A8440096D46F /* Teilnehmer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		16F4D858228495550096D46F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16F4D85B228495550096D46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16F4D85D228495550096D46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16F4D8632284A7AB0096D46F /* TeilnehmerDaten.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeilnehmerDaten.swift; path = ../../EOS_Projekt/TeilnehmerDaten.swift; sourceTree = "<group>"; };
+		16F4D8652284A8440096D46F /* Teilnehmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teilnehmer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +56,13 @@
 		16F4D850228495540096D46F /* eos */ = {
 			isa = PBXGroup;
 			children = (
-				16F4D8632284A7AB0096D46F /* TeilnehmerDaten.swift */,
 				16F4D851228495540096D46F /* AppDelegate.swift */,
 				16F4D853228495540096D46F /* ViewController.swift */,
 				16F4D855228495540096D46F /* Main.storyboard */,
 				16F4D858228495550096D46F /* Assets.xcassets */,
 				16F4D85A228495550096D46F /* LaunchScreen.storyboard */,
 				16F4D85D228495550096D46F /* Info.plist */,
+				16F4D8652284A8440096D46F /* Teilnehmer.swift */,
 			);
 			path = eos;
 			sourceTree = "<group>";
@@ -138,8 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F4D8662284A8440096D46F /* Teilnehmer.swift in Sources */,
 				16F4D854228495540096D46F /* ViewController.swift in Sources */,
-				16F4D8642284A7AB0096D46F /* TeilnehmerDaten.swift in Sources */,
 				16F4D852228495540096D46F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
