@@ -18,8 +18,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var labl: UILabel!
     @IBAction func buttonClicked(_ sender: UIButton) {
-        print("Das ist ein Erfolg!")
-        labl.text = "Zoe! Schön, dass du da bist"
+        print("This is a Git tutorial")
+        labl.text = "I bims zoe ich bin drin 3"
     }
 
 
