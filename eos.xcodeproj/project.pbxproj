@@ -56,13 +56,13 @@
 		16F4D850228495540096D46F /* eos */ = {
 			isa = PBXGroup;
 			children = (
+				16F4D8652284A8440096D46F /* Teilnehmer.swift */,
 				16F4D851228495540096D46F /* AppDelegate.swift */,
 				16F4D853228495540096D46F /* ViewController.swift */,
 				16F4D855228495540096D46F /* Main.storyboard */,
 				16F4D858228495550096D46F /* Assets.xcassets */,
 				16F4D85A228495550096D46F /* LaunchScreen.storyboard */,
 				16F4D85D228495550096D46F /* Info.plist */,
-				16F4D8652284A8440096D46F /* Teilnehmer.swift */,
 			);
 			path = eos;
 			sourceTree = "<group>";
