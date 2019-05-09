@@ -8,13 +8,23 @@
 
 import Foundation
 
-enum geschlecht { case männlich, weiblich, divers }
-enum rollen { case anderes }
+enum geschlechter { case männlich, weiblich, divers }
 
 class Teilnehmer {
-    
     var vorname : String?
     var nachname : String?
-    var geschlecht : geschlecht?
-    var rolle : rollen?
+    var geschlecht : geschlechter?
+
+    
+    init(){
+        print("keine Person")
+        //Errorhandling wäre hier nötig -> zB anzeigen, dass etwas fehlt
+    }
+    
+    init(vn: String, nn: String, geschl: geschlechter) {        //erstellen einer Person
+        vorname = vn
+        nachname = nn
+        geschlecht = geschl
+    }
+    
 }
