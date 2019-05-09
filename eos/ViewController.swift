@@ -13,6 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+    }
+    
+    @IBOutlet weak var labl: UILabel!
+    @IBAction func buttonClicked(_ sender: UIButton) {
+        print("This is a Git tutorial")
+        labl.text = "Schön, dass du da bist"
     }
 
 
