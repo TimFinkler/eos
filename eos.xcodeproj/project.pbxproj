@@ -13,6 +13,7 @@
 		16F4D859228495550096D46F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F4D858228495550096D46F /* Assets.xcassets */; };
 		16F4D85C228495550096D46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F4D85A228495550096D46F /* LaunchScreen.storyboard */; };
 		16F4D8662284A8440096D46F /* Teilnehmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4D8652284A8440096D46F /* Teilnehmer.swift */; };
+		16F4D8682284DDD10096D46F /* Fragen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4D8672284DDD10096D46F /* Fragen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		16F4D85B228495550096D46F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16F4D85D228495550096D46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16F4D8652284A8440096D46F /* Teilnehmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teilnehmer.swift; sourceTree = "<group>"; };
+		16F4D8672284DDD10096D46F /* Fragen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fragen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +58,14 @@
 		16F4D850228495540096D46F /* eos */ = {
 			isa = PBXGroup;
 			children = (
-				16F4D8652284A8440096D46F /* Teilnehmer.swift */,
 				16F4D851228495540096D46F /* AppDelegate.swift */,
 				16F4D853228495540096D46F /* ViewController.swift */,
 				16F4D855228495540096D46F /* Main.storyboard */,
 				16F4D858228495550096D46F /* Assets.xcassets */,
 				16F4D85A228495550096D46F /* LaunchScreen.storyboard */,
 				16F4D85D228495550096D46F /* Info.plist */,
+				16F4D8652284A8440096D46F /* Teilnehmer.swift */,
+				16F4D8672284DDD10096D46F /* Fragen.swift */,
 			);
 			path = eos;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				16F4D8662284A8440096D46F /* Teilnehmer.swift in Sources */,
 				16F4D854228495540096D46F /* ViewController.swift in Sources */,
+				16F4D8682284DDD10096D46F /* Fragen.swift in Sources */,
 				16F4D852228495540096D46F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
