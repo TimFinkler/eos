@@ -14,6 +14,7 @@
 		16F4D85C228495550096D46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F4D85A228495550096D46F /* LaunchScreen.storyboard */; };
 		16F4D8662284A8440096D46F /* Teilnehmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4D8652284A8440096D46F /* Teilnehmer.swift */; };
 		16F4D8682284DDD10096D46F /* Fragen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4D8672284DDD10096D46F /* Fragen.swift */; };
+		16F4D86A2285C6BD0096D46F /* Rueckmeldung.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F4D8692285C6BD0096D46F /* Rueckmeldung.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		16F4D85D228495550096D46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16F4D8652284A8440096D46F /* Teilnehmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teilnehmer.swift; sourceTree = "<group>"; };
 		16F4D8672284DDD10096D46F /* Fragen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fragen.swift; sourceTree = "<group>"; };
+		16F4D8692285C6BD0096D46F /* Rueckmeldung.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Rueckmeldung.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				16F4D85D228495550096D46F /* Info.plist */,
 				16F4D8652284A8440096D46F /* Teilnehmer.swift */,
 				16F4D8672284DDD10096D46F /* Fragen.swift */,
+				16F4D8692285C6BD0096D46F /* Rueckmeldung.storyboard */,
 			);
 			path = eos;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F4D86A2285C6BD0096D46F /* Rueckmeldung.storyboard in Resources */,
 				16F4D85C228495550096D46F /* LaunchScreen.storyboard in Resources */,
 				16F4D859228495550096D46F /* Assets.xcassets in Resources */,
 				16F4D857228495540096D46F /* Main.storyboard in Resources */,
