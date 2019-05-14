@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var weiterButton1: UIButton!
     @IBOutlet weak var labl: UILabel!
     
+    @IBAction func Button(_ sender: UIButton) {
+        
+        
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
