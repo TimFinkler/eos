@@ -14,6 +14,24 @@ class ViewController2: UIViewController {
     @IBAction func backToMainBtn(_ sender: UIButton) {
         performSegue(withIdentifier: "backToMain", sender: self)
     }
+    @IBAction func anglesDetailsBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "showAnglesDetails", sender: self)
+    }
+    @IBAction func overhangsDetailsBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "showOverhangsDetails", sender: self)
+    }
+    @IBAction func wallThicknessDetailsBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "showWallThicknessDetails", sender: self)
+    }
+    @IBAction func postProcessingDetailsBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "showPostProcessingDetails", sender: self)
+    }
+    @IBAction func holesizesDetailsBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "showHoleSizesDetails", sender: self)
+    }
+    @IBAction func surfaceQualityDetailsBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "showSurfaceQualityDetails", sender: self)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
