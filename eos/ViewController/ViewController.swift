@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
+ /*
     @IBOutlet weak var weiterButton1: UIButton!
     @IBOutlet weak var labl: UILabel!
 
@@ -116,6 +116,6 @@ backToMainButton
     }
 
 
-
+*/
 }
 
