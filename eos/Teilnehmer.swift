@@ -21,7 +21,7 @@ enum Typ { case Konstrukteur, Verkäufer, Spaßteilnehmer, Anderes}
 class Teilnehmer {
     
     var typ : Typ?
-   /* nur notwendig wenn wir genauere Personendaten brauchen
+//   nur notwendig wenn wir genauere Personendaten brauchen
     var vorname : String?
     var nachname : String?
     var geschlecht : geschlechter?
@@ -38,7 +38,7 @@ class Teilnehmer {
         nachname = nn
         geschlecht = geschl
     }
-    */
+    
 }
 
 class Bewertung {

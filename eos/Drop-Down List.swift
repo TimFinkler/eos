@@ -9,6 +9,7 @@
 
 //Beispiel1
 import Foundation
+/*
 class MyViewController : UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
     @IBOutlet weak var pickerTextField : UITextField!
     let salutations = ["", "Verkäufer", "Konstrukteur", "Sonstiges"]
@@ -37,7 +38,7 @@ class MyViewController : UIViewController, UIPickerViewDataSource, UIPickerViewD
     }
 }
 
-
+*/
 
 
 
