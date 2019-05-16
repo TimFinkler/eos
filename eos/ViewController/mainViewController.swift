@@ -9,7 +9,28 @@
 import UIKit
 
 class mainViewController: UIViewController {
-
+//hier sind die Buttons zu den Themen aufgelistet
+  
+    
+    @IBAction func anglesBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "showAngles", sender: self)
+    }
+    @IBAction func overhangsBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "showOverhangs", sender: self)
+    }
+    @IBAction func wallThicknessBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "showWallThickness", sender: self)
+    }
+    @IBAction func postProcessingBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "showPostProcessing", sender: self)
+    }
+    @IBAction func holeSizesBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "showHoleSizes", sender: self)
+    }
+    @IBAction func surfaceQualityBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "showSurfaceQuality", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
